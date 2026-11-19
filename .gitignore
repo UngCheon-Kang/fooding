@@ -1,0 +1,26 @@
+# Java / Gradle
+.gradle/
+build/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Node
+node_modules/
+/frontend/build/
+npm-debug.log*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# 비밀값
+.env
+.env.local
+application-prod.yml
